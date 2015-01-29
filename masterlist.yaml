@@ -36366,3 +36366,8 @@ plugins:
   - name: 'Immersive detection of NPC.esp'
     after:
       - 'Combat Evolved.esp'
+
+  - name: 'Immersive lighting of NPCs.esp'
+    after:
+      - 'Immersive detection of NPC.esp'
+      - 'Chesko_WearableLantern.esp'
